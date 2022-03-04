@@ -18,6 +18,7 @@ brew install jq
 az login
 az acr login --name hmctspublic
 
+
 docker-compose -f docker-compose-dependencies-simulator.yml pull
 docker-compose -f docker-compose-dependencies-simulator.yml up
 
